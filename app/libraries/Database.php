@@ -1,9 +1,9 @@
 <?php
     class Database {
-        private $dbHost = DB_HOST;
-        private $dbUser = DB_USER;
-        private $dbPass = DB_PASS;
-        private $dbName = DB_NAME;
+        private $dbHost = ("localhost");
+        private $dbUser = ( "root");
+        private $dbPass = ( "");
+        private $dbName = ("framework");
 
         private $statement;
         private $dbHandler;

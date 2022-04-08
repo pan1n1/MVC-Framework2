@@ -5,7 +5,11 @@ foreach ($data['users'] as $user) {
     echo "<br>";
 }
 */
-?>
+echo("
 HOME PAGE
 <br>
-<a href="http://mvc-toets.org/countries/index">Countries</a>
+<a href='" . URLROOT . "/countries'>Countries</a>");
+
+
+
+?>
